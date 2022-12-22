@@ -10,5 +10,5 @@ import SwiftUI
 
 struct NavigableView: Navigable {
     let id = UUID()
-    var view: AnyView?
+    let view: AnyView
 }
