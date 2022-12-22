@@ -8,12 +8,104 @@
 
 /* Begin PBXBuildFile section */
 		F31F2D9A295434D400A99B95 /* SwiftUINavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2D99295434D400A99B95 /* SwiftUINavigationApp.swift */; };
-		F31F2D9C295434D400A99B95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2D9B295434D400A99B95 /* ContentView.swift */; };
 		F31F2D9E295434D600A99B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31F2D9D295434D600A99B95 /* Assets.xcassets */; };
 		F31F2DA1295434D600A99B95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31F2DA0295434D600A99B95 /* Preview Assets.xcassets */; };
 		F31F2DAB295434D700A99B95 /* SwiftUINavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DAA295434D700A99B95 /* SwiftUINavigationTests.swift */; };
 		F31F2DB5295434D700A99B95 /* SwiftUINavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DB4295434D700A99B95 /* SwiftUINavigationUITests.swift */; };
 		F31F2DB7295434D700A99B95 /* SwiftUINavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DB6295434D700A99B95 /* SwiftUINavigationUITestsLaunchTests.swift */; };
+		F31F2DC62954355C00A99B95 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DC52954355C00A99B95 /* RootCoordinator.swift */; };
+		F31F2DC82954357F00A99B95 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DC72954357F00A99B95 /* Coordinator.swift */; };
+		F31F2DCC295435D900A99B95 /* CoordinatorsFactoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DCB295435D900A99B95 /* CoordinatorsFactoring.swift */; };
+		F31F2DCE2954366500A99B95 /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DCD2954366500A99B95 /* CoordinatorsFactory.swift */; };
+		F31F2DD2295436C200A99B95 /* ModulesFactoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DD1295436C200A99B95 /* ModulesFactoring.swift */; };
+		F31F2DD42954373F00A99B95 /* ModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DD32954373F00A99B95 /* ModulesFactory.swift */; };
+		F31F2DD82954377400A99B95 /* RootModulesFactoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DD72954377400A99B95 /* RootModulesFactoring.swift */; };
+		F31F2DDA295437E500A99B95 /* RootModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DD9295437E500A99B95 /* RootModulesFactory.swift */; };
+		F31F2DDE2954388A00A99B95 /* Navigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DDD2954388A00A99B95 /* Navigable.swift */; };
+		F31F2DE0295438A100A99B95 /* NavigableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DDF295438A100A99B95 /* NavigableView.swift */; };
+		F31F2DE3295438C800A99B95 /* TabBarElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DE2295438C800A99B95 /* TabBarElementType.swift */; };
+		F31F2DE52954391200A99B95 /* TabBarElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DE42954391200A99B95 /* TabBarElement.swift */; };
+		F31F2DE82954399300A99B95 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DE72954399300A99B95 /* TabBarCoordinator.swift */; };
+		F31F2DEB29543A3900A99B95 /* TabBarElementBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DEA29543A3900A99B95 /* TabBarElementBuilding.swift */; };
+		F31F2DED29543A5A00A99B95 /* TabBarElementBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DEC29543A5A00A99B95 /* TabBarElementBuilder.swift */; };
+		F31F2DF029543A8D00A99B95 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DEF29543A8D00A99B95 /* View+.swift */; };
+		F31F2DF729543B5A00A99B95 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DF629543B5A00A99B95 /* TabBarConfigurator.swift */; };
+		F31F2DF929543B7C00A99B95 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DF829543B7C00A99B95 /* TabBarViewModel.swift */; };
+		F31F2DFB29543BC600A99B95 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DFA29543BC600A99B95 /* TabBarView.swift */; };
+		F31F2DFD29543BE900A99B95 /* TabBarViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DFC29543BE900A99B95 /* TabBarViewState.swift */; };
+		F31F2DFF29543C0700A99B95 /* TabBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2DFE29543C0700A99B95 /* TabBarViewOutput.swift */; };
+		F31F2E0129543C2000A99B95 /* TabBarOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E0029543C2000A99B95 /* TabBarOutput.swift */; };
+		F31F2E0329543C3800A99B95 /* TabBarInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E0229543C3800A99B95 /* TabBarInput.swift */; };
+		F31F2E0729543F0100A99B95 /* MainScreenRootConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E0629543F0100A99B95 /* MainScreenRootConfigurator.swift */; };
+		F31F2E0A29543F6400A99B95 /* MainScreenRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E0929543F6400A99B95 /* MainScreenRootViewModel.swift */; };
+		F31F2E0D29543FD100A99B95 /* MainScreenRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E0C29543FD100A99B95 /* MainScreenRootView.swift */; };
+		F31F2E0F29543FFC00A99B95 /* MainScreenRootViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E0E29543FFC00A99B95 /* MainScreenRootViewState.swift */; };
+		F31F2E122954403800A99B95 /* MainScreenRootInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E112954403800A99B95 /* MainScreenRootInput.swift */; };
+		F31F2E142954404900A99B95 /* MainScreenRootViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E132954404900A99B95 /* MainScreenRootViewOutput.swift */; };
+		F31F2E162954405A00A99B95 /* MainScreenRootOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E152954405A00A99B95 /* MainScreenRootOutput.swift */; };
+		F31F2E1E295441ED00A99B95 /* SettingsScreenRootInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E1D295441ED00A99B95 /* SettingsScreenRootInput.swift */; };
+		F31F2E202954420800A99B95 /* SettingsScreenRootOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E1F2954420800A99B95 /* SettingsScreenRootOutput.swift */; };
+		F31F2E222954421E00A99B95 /* SettingsScreenRootViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E212954421E00A99B95 /* SettingsScreenRootViewOutput.swift */; };
+		F31F2E242954423B00A99B95 /* SettingsScreenRootViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E232954423B00A99B95 /* SettingsScreenRootViewState.swift */; };
+		F31F2E262954426100A99B95 /* SettingsScreenRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E252954426100A99B95 /* SettingsScreenRootView.swift */; };
+		F31F2E28295442D800A99B95 /* SettingsScreenRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E27295442D800A99B95 /* SettingsScreenRootViewModel.swift */; };
+		F31F2E2A2954434900A99B95 /* SettingsScreenRootConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E292954434900A99B95 /* SettingsScreenRootConfigurator.swift */; };
+		F31F2E2C295443CA00A99B95 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E2B295443CA00A99B95 /* Router.swift */; };
+		F31F2E38295444D600A99B95 /* MainScreenInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E37295444D600A99B95 /* MainScreenInput.swift */; };
+		F31F2E3A295444EE00A99B95 /* MainScreenOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E39295444EE00A99B95 /* MainScreenOutput.swift */; };
+		F31F2E3C2954450800A99B95 /* MainScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E3B2954450800A99B95 /* MainScreenViewOutput.swift */; };
+		F31F2E3E2954453400A99B95 /* MainScreenViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E3D2954453400A99B95 /* MainScreenViewState.swift */; };
+		F31F2E402954454A00A99B95 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E3F2954454900A99B95 /* MainScreenView.swift */; };
+		F31F2E422954457100A99B95 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E412954457100A99B95 /* MainScreenViewModel.swift */; };
+		F31F2E44295445B700A99B95 /* MainScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E43295445B700A99B95 /* MainScreenConfigurator.swift */; };
+		F31F2E462954470000A99B95 /* SettingsScreenInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E452954470000A99B95 /* SettingsScreenInput.swift */; };
+		F31F2E482954472A00A99B95 /* SettingsScreenOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E472954472A00A99B95 /* SettingsScreenOutput.swift */; };
+		F31F2E4A2954474000A99B95 /* SettingsScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E492954474000A99B95 /* SettingsScreenViewOutput.swift */; };
+		F31F2E4C2954476800A99B95 /* SettingsScreenViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E4B2954476800A99B95 /* SettingsScreenViewState.swift */; };
+		F31F2E4E2954478600A99B95 /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E4D2954478600A99B95 /* SettingsScreenView.swift */; };
+		F31F2E50295447D000A99B95 /* SettingsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E4F295447D000A99B95 /* SettingsScreenViewModel.swift */; };
+		F31F2E522954483000A99B95 /* SettingsScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E512954483000A99B95 /* SettingsScreenConfigurator.swift */; };
+		F31F2E5529544ABB00A99B95 /* MainScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E5429544ABB00A99B95 /* MainScreenCoordinator.swift */; };
+		F31F2E5729544AC800A99B95 /* MainScreenCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E5629544AC800A99B95 /* MainScreenCoordinatorOutput.swift */; };
+		F31F2E5929544ADA00A99B95 /* MainScreenCoordinatorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E5829544ADA00A99B95 /* MainScreenCoordinatorInput.swift */; };
+		F31F2E5C29544C7D00A99B95 /* SettingsScreenCoordinatorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E5B29544C7D00A99B95 /* SettingsScreenCoordinatorInput.swift */; };
+		F31F2E5E29544C8F00A99B95 /* SettingsScreenCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E5D29544C8F00A99B95 /* SettingsScreenCoordinatorOutput.swift */; };
+		F31F2E6029544CA300A99B95 /* SettingsScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E5F29544CA300A99B95 /* SettingsScreenCoordinator.swift */; };
+		F31F2E712954559F00A99B95 /* FirstTestModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E702954559F00A99B95 /* FirstTestModuleInput.swift */; };
+		F31F2E73295455B500A99B95 /* FirstTestModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E72295455B500A99B95 /* FirstTestModuleOutput.swift */; };
+		F31F2E75295455C900A99B95 /* FirstTestModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E74295455C900A99B95 /* FirstTestModuleViewOutput.swift */; };
+		F31F2E77295455FA00A99B95 /* SecondTestModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E76295455FA00A99B95 /* SecondTestModuleInput.swift */; };
+		F31F2E792954560B00A99B95 /* SecondTestModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E782954560B00A99B95 /* SecondTestModuleOutput.swift */; };
+		F31F2E7B2954561F00A99B95 /* SecondTestModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E7A2954561F00A99B95 /* SecondTestModuleViewOutput.swift */; };
+		F31F2E7D2954564600A99B95 /* ThirdTestModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E7C2954564600A99B95 /* ThirdTestModuleInput.swift */; };
+		F31F2E7F2954568900A99B95 /* ThirdTestModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E7E2954568900A99B95 /* ThirdTestModuleOutput.swift */; };
+		F31F2E812954569B00A99B95 /* ThirdTestModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E802954569B00A99B95 /* ThirdTestModuleViewOutput.swift */; };
+		F31F2E83295456B900A99B95 /* ThirdTestModuleViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E82295456B900A99B95 /* ThirdTestModuleViewState.swift */; };
+		F31F2E85295456DA00A99B95 /* SecondTestModuleViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E84295456DA00A99B95 /* SecondTestModuleViewState.swift */; };
+		F31F2E87295456F300A99B95 /* FirstTestModuleViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E86295456F300A99B95 /* FirstTestModuleViewState.swift */; };
+		F31F2E892954573800A99B95 /* FirstTestModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E882954573800A99B95 /* FirstTestModuleView.swift */; };
+		F31F2E8B295457A400A99B95 /* SecondTestModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E8A295457A400A99B95 /* SecondTestModuleView.swift */; };
+		F31F2E8D295457D100A99B95 /* ThirdTestModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E8C295457D100A99B95 /* ThirdTestModuleView.swift */; };
+		F31F2E8F2954581000A99B95 /* FirstTestModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E8E2954581000A99B95 /* FirstTestModuleViewModel.swift */; };
+		F31F2E912954599C00A99B95 /* SecondTestModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E902954599C00A99B95 /* SecondTestModuleViewModel.swift */; };
+		F31F2E93295459DE00A99B95 /* ThirdTestModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E92295459DE00A99B95 /* ThirdTestModuleViewModel.swift */; };
+		F31F2E9529545A1A00A99B95 /* FirstTestModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E9429545A1900A99B95 /* FirstTestModuleConfigurator.swift */; };
+		F31F2E9729545A9800A99B95 /* SecondTestModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E9629545A9800A99B95 /* SecondTestModuleConfigurator.swift */; };
+		F31F2E9929545AC100A99B95 /* ThirdTestModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E9829545AC100A99B95 /* ThirdTestModuleConfigurator.swift */; };
+		F31F2E9E29545BC800A99B95 /* FirstTestCoordinatorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E9D29545BC800A99B95 /* FirstTestCoordinatorInput.swift */; };
+		F31F2EA029545BE000A99B95 /* FirstTestCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2E9F29545BE000A99B95 /* FirstTestCoordinatorOutput.swift */; };
+		F31F2EA229545BF900A99B95 /* SecondTestCoordinatorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EA129545BF900A99B95 /* SecondTestCoordinatorInput.swift */; };
+		F31F2EA429545C0F00A99B95 /* SecondTestCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EA329545C0F00A99B95 /* SecondTestCoordinatorOutput.swift */; };
+		F31F2EA629545C2600A99B95 /* ThirdTestCoordinatorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EA529545C2600A99B95 /* ThirdTestCoordinatorInput.swift */; };
+		F31F2EA829545C3B00A99B95 /* ThirdTestCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EA729545C3B00A99B95 /* ThirdTestCoordinatorOutput.swift */; };
+		F31F2EAA29545C5500A99B95 /* FirstTestCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EA929545C5500A99B95 /* FirstTestCoordinator.swift */; };
+		F31F2EB129545C9A00A99B95 /* SecondTestCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EB029545C9A00A99B95 /* SecondTestCoordinator.swift */; };
+		F31F2EB329545CA700A99B95 /* ThirdTestCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EB229545CA700A99B95 /* ThirdTestCoordinator.swift */; };
+		F31F2EB5295460E300A99B95 /* MainScreenEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EB4295460E300A99B95 /* MainScreenEvent.swift */; };
+		F31F2EB729546F0000A99B95 /* FirstTestModuleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EB629546F0000A99B95 /* FirstTestModuleEvent.swift */; };
+		F31F2EB92954716C00A99B95 /* SecondTestModuleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EB82954716C00A99B95 /* SecondTestModuleEvent.swift */; };
+		F31F2EBB2954750400A99B95 /* ThirdTestModuleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EBA2954750400A99B95 /* ThirdTestModuleEvent.swift */; };
+		F31F2EBD2954AC4800A99B95 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2EBC2954AC4800A99B95 /* Routable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +128,6 @@
 /* Begin PBXFileReference section */
 		F31F2D96295434D400A99B95 /* SwiftUINavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUINavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31F2D99295434D400A99B95 /* SwiftUINavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationApp.swift; sourceTree = "<group>"; };
-		F31F2D9B295434D400A99B95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F31F2D9D295434D600A99B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F31F2DA0295434D600A99B95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F31F2DA6295434D700A99B95 /* SwiftUINavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +135,99 @@
 		F31F2DB0295434D700A99B95 /* SwiftUINavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31F2DB4295434D700A99B95 /* SwiftUINavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationUITests.swift; sourceTree = "<group>"; };
 		F31F2DB6295434D700A99B95 /* SwiftUINavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F31F2DC52954355C00A99B95 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		F31F2DC72954357F00A99B95 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F31F2DCB295435D900A99B95 /* CoordinatorsFactoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactoring.swift; sourceTree = "<group>"; };
+		F31F2DCD2954366500A99B95 /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
+		F31F2DD1295436C200A99B95 /* ModulesFactoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactoring.swift; sourceTree = "<group>"; };
+		F31F2DD32954373F00A99B95 /* ModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactory.swift; sourceTree = "<group>"; };
+		F31F2DD72954377400A99B95 /* RootModulesFactoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModulesFactoring.swift; sourceTree = "<group>"; };
+		F31F2DD9295437E500A99B95 /* RootModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModulesFactory.swift; sourceTree = "<group>"; };
+		F31F2DDD2954388A00A99B95 /* Navigable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigable.swift; sourceTree = "<group>"; };
+		F31F2DDF295438A100A99B95 /* NavigableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigableView.swift; sourceTree = "<group>"; };
+		F31F2DE2295438C800A99B95 /* TabBarElementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarElementType.swift; sourceTree = "<group>"; };
+		F31F2DE42954391200A99B95 /* TabBarElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarElement.swift; sourceTree = "<group>"; };
+		F31F2DE72954399300A99B95 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		F31F2DEA29543A3900A99B95 /* TabBarElementBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarElementBuilding.swift; sourceTree = "<group>"; };
+		F31F2DEC29543A5A00A99B95 /* TabBarElementBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarElementBuilder.swift; sourceTree = "<group>"; };
+		F31F2DEF29543A8D00A99B95 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		F31F2DF629543B5A00A99B95 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
+		F31F2DF829543B7C00A99B95 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		F31F2DFA29543BC600A99B95 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F31F2DFC29543BE900A99B95 /* TabBarViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewState.swift; sourceTree = "<group>"; };
+		F31F2DFE29543C0700A99B95 /* TabBarViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E0029543C2000A99B95 /* TabBarOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarOutput.swift; sourceTree = "<group>"; };
+		F31F2E0229543C3800A99B95 /* TabBarInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarInput.swift; sourceTree = "<group>"; };
+		F31F2E0629543F0100A99B95 /* MainScreenRootConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRootConfigurator.swift; sourceTree = "<group>"; };
+		F31F2E0929543F6400A99B95 /* MainScreenRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRootViewModel.swift; sourceTree = "<group>"; };
+		F31F2E0C29543FD100A99B95 /* MainScreenRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRootView.swift; sourceTree = "<group>"; };
+		F31F2E0E29543FFC00A99B95 /* MainScreenRootViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRootViewState.swift; sourceTree = "<group>"; };
+		F31F2E112954403800A99B95 /* MainScreenRootInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRootInput.swift; sourceTree = "<group>"; };
+		F31F2E132954404900A99B95 /* MainScreenRootViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRootViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E152954405A00A99B95 /* MainScreenRootOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenRootOutput.swift; sourceTree = "<group>"; };
+		F31F2E1D295441ED00A99B95 /* SettingsScreenRootInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenRootInput.swift; sourceTree = "<group>"; };
+		F31F2E1F2954420800A99B95 /* SettingsScreenRootOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenRootOutput.swift; sourceTree = "<group>"; };
+		F31F2E212954421E00A99B95 /* SettingsScreenRootViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenRootViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E232954423B00A99B95 /* SettingsScreenRootViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenRootViewState.swift; sourceTree = "<group>"; };
+		F31F2E252954426100A99B95 /* SettingsScreenRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenRootView.swift; sourceTree = "<group>"; };
+		F31F2E27295442D800A99B95 /* SettingsScreenRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenRootViewModel.swift; sourceTree = "<group>"; };
+		F31F2E292954434900A99B95 /* SettingsScreenRootConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenRootConfigurator.swift; sourceTree = "<group>"; };
+		F31F2E2B295443CA00A99B95 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F31F2E37295444D600A99B95 /* MainScreenInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenInput.swift; sourceTree = "<group>"; };
+		F31F2E39295444EE00A99B95 /* MainScreenOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenOutput.swift; sourceTree = "<group>"; };
+		F31F2E3B2954450800A99B95 /* MainScreenViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E3D2954453400A99B95 /* MainScreenViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewState.swift; sourceTree = "<group>"; };
+		F31F2E3F2954454900A99B95 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		F31F2E412954457100A99B95 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		F31F2E43295445B700A99B95 /* MainScreenConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenConfigurator.swift; sourceTree = "<group>"; };
+		F31F2E452954470000A99B95 /* SettingsScreenInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenInput.swift; sourceTree = "<group>"; };
+		F31F2E472954472A00A99B95 /* SettingsScreenOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenOutput.swift; sourceTree = "<group>"; };
+		F31F2E492954474000A99B95 /* SettingsScreenViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E4B2954476800A99B95 /* SettingsScreenViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenViewState.swift; sourceTree = "<group>"; };
+		F31F2E4D2954478600A99B95 /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
+		F31F2E4F295447D000A99B95 /* SettingsScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenViewModel.swift; sourceTree = "<group>"; };
+		F31F2E512954483000A99B95 /* SettingsScreenConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenConfigurator.swift; sourceTree = "<group>"; };
+		F31F2E5429544ABB00A99B95 /* MainScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCoordinator.swift; sourceTree = "<group>"; };
+		F31F2E5629544AC800A99B95 /* MainScreenCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCoordinatorOutput.swift; sourceTree = "<group>"; };
+		F31F2E5829544ADA00A99B95 /* MainScreenCoordinatorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCoordinatorInput.swift; sourceTree = "<group>"; };
+		F31F2E5B29544C7D00A99B95 /* SettingsScreenCoordinatorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenCoordinatorInput.swift; sourceTree = "<group>"; };
+		F31F2E5D29544C8F00A99B95 /* SettingsScreenCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenCoordinatorOutput.swift; sourceTree = "<group>"; };
+		F31F2E5F29544CA300A99B95 /* SettingsScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenCoordinator.swift; sourceTree = "<group>"; };
+		F31F2E702954559F00A99B95 /* FirstTestModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleInput.swift; sourceTree = "<group>"; };
+		F31F2E72295455B500A99B95 /* FirstTestModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleOutput.swift; sourceTree = "<group>"; };
+		F31F2E74295455C900A99B95 /* FirstTestModuleViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E76295455FA00A99B95 /* SecondTestModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleInput.swift; sourceTree = "<group>"; };
+		F31F2E782954560B00A99B95 /* SecondTestModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleOutput.swift; sourceTree = "<group>"; };
+		F31F2E7A2954561F00A99B95 /* SecondTestModuleViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E7C2954564600A99B95 /* ThirdTestModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleInput.swift; sourceTree = "<group>"; };
+		F31F2E7E2954568900A99B95 /* ThirdTestModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleOutput.swift; sourceTree = "<group>"; };
+		F31F2E802954569B00A99B95 /* ThirdTestModuleViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleViewOutput.swift; sourceTree = "<group>"; };
+		F31F2E82295456B900A99B95 /* ThirdTestModuleViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleViewState.swift; sourceTree = "<group>"; };
+		F31F2E84295456DA00A99B95 /* SecondTestModuleViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleViewState.swift; sourceTree = "<group>"; };
+		F31F2E86295456F300A99B95 /* FirstTestModuleViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleViewState.swift; sourceTree = "<group>"; };
+		F31F2E882954573800A99B95 /* FirstTestModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleView.swift; sourceTree = "<group>"; };
+		F31F2E8A295457A400A99B95 /* SecondTestModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleView.swift; sourceTree = "<group>"; };
+		F31F2E8C295457D100A99B95 /* ThirdTestModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleView.swift; sourceTree = "<group>"; };
+		F31F2E8E2954581000A99B95 /* FirstTestModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleViewModel.swift; sourceTree = "<group>"; };
+		F31F2E902954599C00A99B95 /* SecondTestModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleViewModel.swift; sourceTree = "<group>"; };
+		F31F2E92295459DE00A99B95 /* ThirdTestModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleViewModel.swift; sourceTree = "<group>"; };
+		F31F2E9429545A1900A99B95 /* FirstTestModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleConfigurator.swift; sourceTree = "<group>"; };
+		F31F2E9629545A9800A99B95 /* SecondTestModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleConfigurator.swift; sourceTree = "<group>"; };
+		F31F2E9829545AC100A99B95 /* ThirdTestModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleConfigurator.swift; sourceTree = "<group>"; };
+		F31F2E9D29545BC800A99B95 /* FirstTestCoordinatorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestCoordinatorInput.swift; sourceTree = "<group>"; };
+		F31F2E9F29545BE000A99B95 /* FirstTestCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestCoordinatorOutput.swift; sourceTree = "<group>"; };
+		F31F2EA129545BF900A99B95 /* SecondTestCoordinatorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestCoordinatorInput.swift; sourceTree = "<group>"; };
+		F31F2EA329545C0F00A99B95 /* SecondTestCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestCoordinatorOutput.swift; sourceTree = "<group>"; };
+		F31F2EA529545C2600A99B95 /* ThirdTestCoordinatorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestCoordinatorInput.swift; sourceTree = "<group>"; };
+		F31F2EA729545C3B00A99B95 /* ThirdTestCoordinatorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestCoordinatorOutput.swift; sourceTree = "<group>"; };
+		F31F2EA929545C5500A99B95 /* FirstTestCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestCoordinator.swift; sourceTree = "<group>"; };
+		F31F2EB029545C9A00A99B95 /* SecondTestCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestCoordinator.swift; sourceTree = "<group>"; };
+		F31F2EB229545CA700A99B95 /* ThirdTestCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestCoordinator.swift; sourceTree = "<group>"; };
+		F31F2EB4295460E300A99B95 /* MainScreenEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenEvent.swift; sourceTree = "<group>"; };
+		F31F2EB629546F0000A99B95 /* FirstTestModuleEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTestModuleEvent.swift; sourceTree = "<group>"; };
+		F31F2EB82954716C00A99B95 /* SecondTestModuleEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTestModuleEvent.swift; sourceTree = "<group>"; };
+		F31F2EBA2954750400A99B95 /* ThirdTestModuleEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTestModuleEvent.swift; sourceTree = "<group>"; };
+		F31F2EBC2954AC4800A99B95 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +278,12 @@
 		F31F2D98295434D400A99B95 /* SwiftUINavigation */ = {
 			isa = PBXGroup;
 			children = (
-				F31F2D99295434D400A99B95 /* SwiftUINavigationApp.swift */,
-				F31F2D9B295434D400A99B95 /* ContentView.swift */,
-				F31F2D9D295434D600A99B95 /* Assets.xcassets */,
-				F31F2D9F295434D600A99B95 /* Preview Content */,
+				F31F2DC32954351000A99B95 /* App */,
+				F31F2DDB2954386400A99B95 /* Entities */,
+				F31F2DC42954353C00A99B95 /* Coordinators */,
+				F31F2DD52954374D00A99B95 /* RootModules */,
+				F31F2DCF2954369F00A99B95 /* Modules */,
+				F31F2DEE29543A7600A99B95 /* Extensions */,
 			);
 			path = SwiftUINavigation;
 			sourceTree = "<group>";
@@ -125,6 +311,608 @@
 				F31F2DB6295434D700A99B95 /* SwiftUINavigationUITestsLaunchTests.swift */,
 			);
 			path = SwiftUINavigationUITests;
+			sourceTree = "<group>";
+		};
+		F31F2DC32954351000A99B95 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2D99295434D400A99B95 /* SwiftUINavigationApp.swift */,
+				F31F2D9D295434D600A99B95 /* Assets.xcassets */,
+				F31F2D9F295434D600A99B95 /* Preview Content */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F31F2DC42954353C00A99B95 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DC92954358F00A99B95 /* Protocols */,
+				F31F2DCA295435BD00A99B95 /* CoordinatorsFactory */,
+				F31F2DE62954395000A99B95 /* TabBarCoordinator */,
+				F31F2E5329544A8F00A99B95 /* MainScreenCoordinator */,
+				F31F2E5A29544C5A00A99B95 /* SettingsScreenCoordinator */,
+				F31F2E9A29545B8E00A99B95 /* FirstTestCoordinator */,
+				F31F2E9B29545B9B00A99B95 /* SecondTestCoordinator */,
+				F31F2E9C29545BA400A99B95 /* ThirdTestCoordinator */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F31F2DC92954358F00A99B95 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DC52954355C00A99B95 /* RootCoordinator.swift */,
+				F31F2DC72954357F00A99B95 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F31F2DCA295435BD00A99B95 /* CoordinatorsFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DCB295435D900A99B95 /* CoordinatorsFactoring.swift */,
+				F31F2DCD2954366500A99B95 /* CoordinatorsFactory.swift */,
+			);
+			path = CoordinatorsFactory;
+			sourceTree = "<group>";
+		};
+		F31F2DCF2954369F00A99B95 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DD0295436A700A99B95 /* ModulesFactory */,
+				F31F2E2D2954443000A99B95 /* MainScreen */,
+				F31F2E322954447300A99B95 /* SettingsScreen */,
+				F31F2E612954542600A99B95 /* FirstTestModule */,
+				F31F2E622954544000A99B95 /* SecondTestModule */,
+				F31F2E632954544A00A99B95 /* ThirdTestModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F31F2DD0295436A700A99B95 /* ModulesFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DD1295436C200A99B95 /* ModulesFactoring.swift */,
+				F31F2DD32954373F00A99B95 /* ModulesFactory.swift */,
+			);
+			path = ModulesFactory;
+			sourceTree = "<group>";
+		};
+		F31F2DD52954374D00A99B95 /* RootModules */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DD62954375D00A99B95 /* RootModulesFactory */,
+				F31F2DF129543AE200A99B95 /* TabBar */,
+				F31F2E0429543E7F00A99B95 /* MainScreenRoot */,
+				F31F2E182954417E00A99B95 /* SettingsScreenRoot */,
+			);
+			path = RootModules;
+			sourceTree = "<group>";
+		};
+		F31F2DD62954375D00A99B95 /* RootModulesFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DD72954377400A99B95 /* RootModulesFactoring.swift */,
+				F31F2DD9295437E500A99B95 /* RootModulesFactory.swift */,
+			);
+			path = RootModulesFactory;
+			sourceTree = "<group>";
+		};
+		F31F2DDB2954386400A99B95 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DDC2954387900A99B95 /* Core */,
+				F31F2DE1295438B300A99B95 /* TabBar */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F31F2DDC2954387900A99B95 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DDD2954388A00A99B95 /* Navigable.swift */,
+				F31F2DDF295438A100A99B95 /* NavigableView.swift */,
+				F31F2EBC2954AC4800A99B95 /* Routable.swift */,
+				F31F2E2B295443CA00A99B95 /* Router.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F31F2DE1295438B300A99B95 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DE2295438C800A99B95 /* TabBarElementType.swift */,
+				F31F2DE42954391200A99B95 /* TabBarElement.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F31F2DE62954395000A99B95 /* TabBarCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DE929543A2E00A99B95 /* TabBarElementBuilder */,
+				F31F2DE72954399300A99B95 /* TabBarCoordinator.swift */,
+			);
+			path = TabBarCoordinator;
+			sourceTree = "<group>";
+		};
+		F31F2DE929543A2E00A99B95 /* TabBarElementBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DEA29543A3900A99B95 /* TabBarElementBuilding.swift */,
+				F31F2DEC29543A5A00A99B95 /* TabBarElementBuilder.swift */,
+			);
+			path = TabBarElementBuilder;
+			sourceTree = "<group>";
+		};
+		F31F2DEE29543A7600A99B95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DEF29543A8D00A99B95 /* View+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F31F2DF129543AE200A99B95 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DF229543AFF00A99B95 /* Configurator */,
+				F31F2DF329543B0700A99B95 /* ViewModel */,
+				F31F2DF429543B1100A99B95 /* View */,
+				F31F2DF529543B2500A99B95 /* Interfaces */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F31F2DF229543AFF00A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DF629543B5A00A99B95 /* TabBarConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2DF329543B0700A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DF829543B7C00A99B95 /* TabBarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2DF429543B1100A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DFA29543BC600A99B95 /* TabBarView.swift */,
+				F31F2DFC29543BE900A99B95 /* TabBarViewState.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2DF529543B2500A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2DFE29543C0700A99B95 /* TabBarViewOutput.swift */,
+				F31F2E0029543C2000A99B95 /* TabBarOutput.swift */,
+				F31F2E0229543C3800A99B95 /* TabBarInput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E0429543E7F00A99B95 /* MainScreenRoot */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E0529543EA900A99B95 /* Configurator */,
+				F31F2E0829543F4E00A99B95 /* ViewModel */,
+				F31F2E0B29543FB900A99B95 /* View */,
+				F31F2E102954401900A99B95 /* Interfaces */,
+			);
+			path = MainScreenRoot;
+			sourceTree = "<group>";
+		};
+		F31F2E0529543EA900A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E0629543F0100A99B95 /* MainScreenRootConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2E0829543F4E00A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E0929543F6400A99B95 /* MainScreenRootViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2E0B29543FB900A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E0E29543FFC00A99B95 /* MainScreenRootViewState.swift */,
+				F31F2E0C29543FD100A99B95 /* MainScreenRootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2E102954401900A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E112954403800A99B95 /* MainScreenRootInput.swift */,
+				F31F2E132954404900A99B95 /* MainScreenRootViewOutput.swift */,
+				F31F2E152954405A00A99B95 /* MainScreenRootOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E182954417E00A99B95 /* SettingsScreenRoot */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E19295441A600A99B95 /* Configurator */,
+				F31F2E1A295441B000A99B95 /* ViewModel */,
+				F31F2E1B295441B900A99B95 /* View */,
+				F31F2E1C295441C700A99B95 /* Interfaces */,
+			);
+			path = SettingsScreenRoot;
+			sourceTree = "<group>";
+		};
+		F31F2E19295441A600A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E292954434900A99B95 /* SettingsScreenRootConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2E1A295441B000A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E27295442D800A99B95 /* SettingsScreenRootViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2E1B295441B900A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E232954423B00A99B95 /* SettingsScreenRootViewState.swift */,
+				F31F2E252954426100A99B95 /* SettingsScreenRootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2E1C295441C700A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E1D295441ED00A99B95 /* SettingsScreenRootInput.swift */,
+				F31F2E1F2954420800A99B95 /* SettingsScreenRootOutput.swift */,
+				F31F2E212954421E00A99B95 /* SettingsScreenRootViewOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E2D2954443000A99B95 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E2E2954444700A99B95 /* Configurator */,
+				F31F2E302954445C00A99B95 /* ViewModel */,
+				F31F2E2F2954444B00A99B95 /* View */,
+				F31F2E312954446400A99B95 /* Interfaces */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		F31F2E2E2954444700A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E43295445B700A99B95 /* MainScreenConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2E2F2954444B00A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E3D2954453400A99B95 /* MainScreenViewState.swift */,
+				F31F2E3F2954454900A99B95 /* MainScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2E302954445C00A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E412954457100A99B95 /* MainScreenViewModel.swift */,
+				F31F2EB4295460E300A99B95 /* MainScreenEvent.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2E312954446400A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E37295444D600A99B95 /* MainScreenInput.swift */,
+				F31F2E39295444EE00A99B95 /* MainScreenOutput.swift */,
+				F31F2E3B2954450800A99B95 /* MainScreenViewOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E322954447300A99B95 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E332954449200A99B95 /* Configurator */,
+				F31F2E342954449A00A99B95 /* ViewModel */,
+				F31F2E352954449E00A99B95 /* View */,
+				F31F2E36295444A500A99B95 /* Interfaces */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		F31F2E332954449200A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E512954483000A99B95 /* SettingsScreenConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2E342954449A00A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E4F295447D000A99B95 /* SettingsScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2E352954449E00A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E4B2954476800A99B95 /* SettingsScreenViewState.swift */,
+				F31F2E4D2954478600A99B95 /* SettingsScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2E36295444A500A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E452954470000A99B95 /* SettingsScreenInput.swift */,
+				F31F2E472954472A00A99B95 /* SettingsScreenOutput.swift */,
+				F31F2E492954474000A99B95 /* SettingsScreenViewOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E5329544A8F00A99B95 /* MainScreenCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2EAC29545C6900A99B95 /* Interfaces */,
+				F31F2E5429544ABB00A99B95 /* MainScreenCoordinator.swift */,
+			);
+			path = MainScreenCoordinator;
+			sourceTree = "<group>";
+		};
+		F31F2E5A29544C5A00A99B95 /* SettingsScreenCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2EAB29545C6000A99B95 /* Interfaces */,
+				F31F2E5F29544CA300A99B95 /* SettingsScreenCoordinator.swift */,
+			);
+			path = SettingsScreenCoordinator;
+			sourceTree = "<group>";
+		};
+		F31F2E612954542600A99B95 /* FirstTestModule */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E64295454F900A99B95 /* Configurator */,
+				F31F2E672954551300A99B95 /* ViewModel */,
+				F31F2E6A2954552100A99B95 /* View */,
+				F31F2E6D2954553000A99B95 /* Interfaces */,
+			);
+			path = FirstTestModule;
+			sourceTree = "<group>";
+		};
+		F31F2E622954544000A99B95 /* SecondTestModule */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E65295454FE00A99B95 /* Configurator */,
+				F31F2E682954551700A99B95 /* ViewModel */,
+				F31F2E6B2954552500A99B95 /* View */,
+				F31F2E6E2954553400A99B95 /* Interfaces */,
+			);
+			path = SecondTestModule;
+			sourceTree = "<group>";
+		};
+		F31F2E632954544A00A99B95 /* ThirdTestModule */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E662954550200A99B95 /* Configurator */,
+				F31F2E692954551B00A99B95 /* ViewModel */,
+				F31F2E6C2954552800A99B95 /* View */,
+				F31F2E6F2954554100A99B95 /* Interfaces */,
+			);
+			path = ThirdTestModule;
+			sourceTree = "<group>";
+		};
+		F31F2E64295454F900A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E9429545A1900A99B95 /* FirstTestModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2E65295454FE00A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E9629545A9800A99B95 /* SecondTestModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2E662954550200A99B95 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E9829545AC100A99B95 /* ThirdTestModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F31F2E672954551300A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E8E2954581000A99B95 /* FirstTestModuleViewModel.swift */,
+				F31F2EB629546F0000A99B95 /* FirstTestModuleEvent.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2E682954551700A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E902954599C00A99B95 /* SecondTestModuleViewModel.swift */,
+				F31F2EB82954716C00A99B95 /* SecondTestModuleEvent.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2E692954551B00A99B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E92295459DE00A99B95 /* ThirdTestModuleViewModel.swift */,
+				F31F2EBA2954750400A99B95 /* ThirdTestModuleEvent.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F31F2E6A2954552100A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E86295456F300A99B95 /* FirstTestModuleViewState.swift */,
+				F31F2E882954573800A99B95 /* FirstTestModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2E6B2954552500A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E84295456DA00A99B95 /* SecondTestModuleViewState.swift */,
+				F31F2E8A295457A400A99B95 /* SecondTestModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2E6C2954552800A99B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E82295456B900A99B95 /* ThirdTestModuleViewState.swift */,
+				F31F2E8C295457D100A99B95 /* ThirdTestModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F31F2E6D2954553000A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E702954559F00A99B95 /* FirstTestModuleInput.swift */,
+				F31F2E72295455B500A99B95 /* FirstTestModuleOutput.swift */,
+				F31F2E74295455C900A99B95 /* FirstTestModuleViewOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E6E2954553400A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E76295455FA00A99B95 /* SecondTestModuleInput.swift */,
+				F31F2E782954560B00A99B95 /* SecondTestModuleOutput.swift */,
+				F31F2E7A2954561F00A99B95 /* SecondTestModuleViewOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E6F2954554100A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E7C2954564600A99B95 /* ThirdTestModuleInput.swift */,
+				F31F2E7E2954568900A99B95 /* ThirdTestModuleOutput.swift */,
+				F31F2E802954569B00A99B95 /* ThirdTestModuleViewOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2E9A29545B8E00A99B95 /* FirstTestCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2EAD29545C7600A99B95 /* Interfaces */,
+				F31F2EA929545C5500A99B95 /* FirstTestCoordinator.swift */,
+			);
+			path = FirstTestCoordinator;
+			sourceTree = "<group>";
+		};
+		F31F2E9B29545B9B00A99B95 /* SecondTestCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2EAE29545C8500A99B95 /* Interfaces */,
+				F31F2EB029545C9A00A99B95 /* SecondTestCoordinator.swift */,
+			);
+			path = SecondTestCoordinator;
+			sourceTree = "<group>";
+		};
+		F31F2E9C29545BA400A99B95 /* ThirdTestCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2EAF29545C8800A99B95 /* Interfaces */,
+				F31F2EB229545CA700A99B95 /* ThirdTestCoordinator.swift */,
+			);
+			path = ThirdTestCoordinator;
+			sourceTree = "<group>";
+		};
+		F31F2EAB29545C6000A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E5D29544C8F00A99B95 /* SettingsScreenCoordinatorOutput.swift */,
+				F31F2E5B29544C7D00A99B95 /* SettingsScreenCoordinatorInput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2EAC29545C6900A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E5829544ADA00A99B95 /* MainScreenCoordinatorInput.swift */,
+				F31F2E5629544AC800A99B95 /* MainScreenCoordinatorOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2EAD29545C7600A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2E9D29545BC800A99B95 /* FirstTestCoordinatorInput.swift */,
+				F31F2E9F29545BE000A99B95 /* FirstTestCoordinatorOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2EAE29545C8500A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2EA129545BF900A99B95 /* SecondTestCoordinatorInput.swift */,
+				F31F2EA329545C0F00A99B95 /* SecondTestCoordinatorOutput.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F31F2EAF29545C8800A99B95 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F31F2EA529545C2600A99B95 /* ThirdTestCoordinatorInput.swift */,
+				F31F2EA729545C3B00A99B95 /* ThirdTestCoordinatorOutput.swift */,
+			);
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +1045,100 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31F2D9C295434D400A99B95 /* ContentView.swift in Sources */,
+				F31F2EBB2954750400A99B95 /* ThirdTestModuleEvent.swift in Sources */,
+				F31F2E462954470000A99B95 /* SettingsScreenInput.swift in Sources */,
+				F31F2EB729546F0000A99B95 /* FirstTestModuleEvent.swift in Sources */,
+				F31F2DD42954373F00A99B95 /* ModulesFactory.swift in Sources */,
+				F31F2E93295459DE00A99B95 /* ThirdTestModuleViewModel.swift in Sources */,
+				F31F2E9729545A9800A99B95 /* SecondTestModuleConfigurator.swift in Sources */,
+				F31F2DFF29543C0700A99B95 /* TabBarViewOutput.swift in Sources */,
+				F31F2E142954404900A99B95 /* MainScreenRootViewOutput.swift in Sources */,
+				F31F2EB129545C9A00A99B95 /* SecondTestCoordinator.swift in Sources */,
+				F31F2EB5295460E300A99B95 /* MainScreenEvent.swift in Sources */,
+				F31F2E912954599C00A99B95 /* SecondTestModuleViewModel.swift in Sources */,
+				F31F2E262954426100A99B95 /* SettingsScreenRootView.swift in Sources */,
+				F31F2E892954573800A99B95 /* FirstTestModuleView.swift in Sources */,
+				F31F2DC62954355C00A99B95 /* RootCoordinator.swift in Sources */,
+				F31F2DFD29543BE900A99B95 /* TabBarViewState.swift in Sources */,
+				F31F2E482954472A00A99B95 /* SettingsScreenOutput.swift in Sources */,
+				F31F2E28295442D800A99B95 /* SettingsScreenRootViewModel.swift in Sources */,
+				F31F2E7F2954568900A99B95 /* ThirdTestModuleOutput.swift in Sources */,
+				F31F2E402954454A00A99B95 /* MainScreenView.swift in Sources */,
+				F31F2E812954569B00A99B95 /* ThirdTestModuleViewOutput.swift in Sources */,
+				F31F2E9E29545BC800A99B95 /* FirstTestCoordinatorInput.swift in Sources */,
+				F31F2E2A2954434900A99B95 /* SettingsScreenRootConfigurator.swift in Sources */,
+				F31F2E44295445B700A99B95 /* MainScreenConfigurator.swift in Sources */,
+				F31F2EBD2954AC4800A99B95 /* Routable.swift in Sources */,
+				F31F2E7B2954561F00A99B95 /* SecondTestModuleViewOutput.swift in Sources */,
+				F31F2E202954420800A99B95 /* SettingsScreenRootOutput.swift in Sources */,
+				F31F2DED29543A5A00A99B95 /* TabBarElementBuilder.swift in Sources */,
 				F31F2D9A295434D400A99B95 /* SwiftUINavigationApp.swift in Sources */,
+				F31F2EA629545C2600A99B95 /* ThirdTestCoordinatorInput.swift in Sources */,
+				F31F2DF729543B5A00A99B95 /* TabBarConfigurator.swift in Sources */,
+				F31F2E3A295444EE00A99B95 /* MainScreenOutput.swift in Sources */,
+				F31F2EA829545C3B00A99B95 /* ThirdTestCoordinatorOutput.swift in Sources */,
+				F31F2E0D29543FD100A99B95 /* MainScreenRootView.swift in Sources */,
+				F31F2DCC295435D900A99B95 /* CoordinatorsFactoring.swift in Sources */,
+				F31F2E4C2954476800A99B95 /* SettingsScreenViewState.swift in Sources */,
+				F31F2E0329543C3800A99B95 /* TabBarInput.swift in Sources */,
+				F31F2E0129543C2000A99B95 /* TabBarOutput.swift in Sources */,
+				F31F2EA229545BF900A99B95 /* SecondTestCoordinatorInput.swift in Sources */,
+				F31F2E75295455C900A99B95 /* FirstTestModuleViewOutput.swift in Sources */,
+				F31F2E5729544AC800A99B95 /* MainScreenCoordinatorOutput.swift in Sources */,
+				F31F2E122954403800A99B95 /* MainScreenRootInput.swift in Sources */,
+				F31F2E85295456DA00A99B95 /* SecondTestModuleViewState.swift in Sources */,
+				F31F2DF029543A8D00A99B95 /* View+.swift in Sources */,
+				F31F2E0729543F0100A99B95 /* MainScreenRootConfigurator.swift in Sources */,
+				F31F2E8B295457A400A99B95 /* SecondTestModuleView.swift in Sources */,
+				F31F2E3E2954453400A99B95 /* MainScreenViewState.swift in Sources */,
+				F31F2DD2295436C200A99B95 /* ModulesFactoring.swift in Sources */,
+				F31F2E5E29544C8F00A99B95 /* SettingsScreenCoordinatorOutput.swift in Sources */,
+				F31F2E5929544ADA00A99B95 /* MainScreenCoordinatorInput.swift in Sources */,
+				F31F2DE52954391200A99B95 /* TabBarElement.swift in Sources */,
+				F31F2DC82954357F00A99B95 /* Coordinator.swift in Sources */,
+				F31F2DE3295438C800A99B95 /* TabBarElementType.swift in Sources */,
+				F31F2DCE2954366500A99B95 /* CoordinatorsFactory.swift in Sources */,
+				F31F2DEB29543A3900A99B95 /* TabBarElementBuilding.swift in Sources */,
+				F31F2E3C2954450800A99B95 /* MainScreenViewOutput.swift in Sources */,
+				F31F2E5529544ABB00A99B95 /* MainScreenCoordinator.swift in Sources */,
+				F31F2E4E2954478600A99B95 /* SettingsScreenView.swift in Sources */,
+				F31F2E2C295443CA00A99B95 /* Router.swift in Sources */,
+				F31F2E222954421E00A99B95 /* SettingsScreenRootViewOutput.swift in Sources */,
+				F31F2E242954423B00A99B95 /* SettingsScreenRootViewState.swift in Sources */,
+				F31F2DF929543B7C00A99B95 /* TabBarViewModel.swift in Sources */,
+				F31F2E38295444D600A99B95 /* MainScreenInput.swift in Sources */,
+				F31F2DDE2954388A00A99B95 /* Navigable.swift in Sources */,
+				F31F2E7D2954564600A99B95 /* ThirdTestModuleInput.swift in Sources */,
+				F31F2DE82954399300A99B95 /* TabBarCoordinator.swift in Sources */,
+				F31F2E50295447D000A99B95 /* SettingsScreenViewModel.swift in Sources */,
+				F31F2EB329545CA700A99B95 /* ThirdTestCoordinator.swift in Sources */,
+				F31F2E8F2954581000A99B95 /* FirstTestModuleViewModel.swift in Sources */,
+				F31F2DD82954377400A99B95 /* RootModulesFactoring.swift in Sources */,
+				F31F2E162954405A00A99B95 /* MainScreenRootOutput.swift in Sources */,
+				F31F2DDA295437E500A99B95 /* RootModulesFactory.swift in Sources */,
+				F31F2E87295456F300A99B95 /* FirstTestModuleViewState.swift in Sources */,
+				F31F2E0A29543F6400A99B95 /* MainScreenRootViewModel.swift in Sources */,
+				F31F2E522954483000A99B95 /* SettingsScreenConfigurator.swift in Sources */,
+				F31F2E9929545AC100A99B95 /* ThirdTestModuleConfigurator.swift in Sources */,
+				F31F2EAA29545C5500A99B95 /* FirstTestCoordinator.swift in Sources */,
+				F31F2EA029545BE000A99B95 /* FirstTestCoordinatorOutput.swift in Sources */,
+				F31F2E5C29544C7D00A99B95 /* SettingsScreenCoordinatorInput.swift in Sources */,
+				F31F2E0F29543FFC00A99B95 /* MainScreenRootViewState.swift in Sources */,
+				F31F2E83295456B900A99B95 /* ThirdTestModuleViewState.swift in Sources */,
+				F31F2EA429545C0F00A99B95 /* SecondTestCoordinatorOutput.swift in Sources */,
+				F31F2E422954457100A99B95 /* MainScreenViewModel.swift in Sources */,
+				F31F2E9529545A1A00A99B95 /* FirstTestModuleConfigurator.swift in Sources */,
+				F31F2E8D295457D100A99B95 /* ThirdTestModuleView.swift in Sources */,
+				F31F2E1E295441ED00A99B95 /* SettingsScreenRootInput.swift in Sources */,
+				F31F2E4A2954474000A99B95 /* SettingsScreenViewOutput.swift in Sources */,
+				F31F2E6029544CA300A99B95 /* SettingsScreenCoordinator.swift in Sources */,
+				F31F2DFB29543BC600A99B95 /* TabBarView.swift in Sources */,
+				F31F2EB92954716C00A99B95 /* SecondTestModuleEvent.swift in Sources */,
+				F31F2E73295455B500A99B95 /* FirstTestModuleOutput.swift in Sources */,
+				F31F2DE0295438A100A99B95 /* NavigableView.swift in Sources */,
+				F31F2E792954560B00A99B95 /* SecondTestModuleOutput.swift in Sources */,
+				F31F2E712954559F00A99B95 /* FirstTestModuleInput.swift in Sources */,
+				F31F2E77295455FA00A99B95 /* SecondTestModuleInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +1296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUINavigation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUINavigation/App/Preview Content\"";
 				DEVELOPMENT_TEAM = JCV48HS79W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -425,6 +1305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +1326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUINavigation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUINavigation/App/Preview Content\"";
 				DEVELOPMENT_TEAM = JCV48HS79W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -454,6 +1335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
